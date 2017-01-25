@@ -1,0 +1,43 @@
+
+.AppNav {
+  background-color: var(--main-gray-3);
+  display: flex; /* crée un contexte flex pour ses enfants */
+  flex-direction: row;
+
+}
+.AppNav>ul {
+  flex: content;
+  display: flex; /* crée un contexte flex pour ses enfants */
+  flex-direction: row;
+  padding:0;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.AppNav>ul>li {
+  list-style: none;
+
+}
+.AppNav-link {
+  flex: 1;
+  display: inline-block;
+  color: var(--main-gray-1);
+  text-decoration: none;
+  border-radius: 2px ;
+  padding: 5px;
+  margin: 0 1em ;
+}
+
+.AppNav-link:hover {
+  color:  var(--main-color-1);
+}
+
+
+@media (max-width: 640px) {
+  @media (max-width: 640px) {
+    .AppNav ul {
+      display: flex; /* crée un contexte flex pour ses enfants */
+      flex-direction: column;
+    }
+  }
+}

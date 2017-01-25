@@ -1,0 +1,6 @@
+.TopBar {
+  flex:1;
+  flex-direction: row;
+  background-color: #DF004A;
+  text-align: right;
+}

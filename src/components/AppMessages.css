@@ -1,0 +1,21 @@
+.AppMessages {
+  margin: 1em;
+  text-align: right;
+  height: 1em;
+}
+.DEBUG {
+  color: var(--main-gray-1);
+
+}
+.INFO {
+  color: var(--main-gray-2);
+
+}
+.WARN {
+  color: var(--main-color-1);
+
+}
+.ERROR {
+  color: var(--main-color-2);
+
+}

@@ -1,0 +1,10 @@
+.SensorsList h2 {
+  color:  var(--main-color-2);
+}
+
+.SensorsList ul {
+  list-style: none;
+}
+
+.SensorsList ul li{
+}

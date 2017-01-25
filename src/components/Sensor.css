@@ -1,0 +1,9 @@
+.Sensor {
+
+}
+
+.badge {
+  color: var(--main-color-1);
+  font-weight: bold;
+  font-style: italic;
+}

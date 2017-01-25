@@ -1,0 +1,51 @@
+.LiveSensors {
+  display: flex; /* crée un contexte flex pour ses enfants */
+  flex-direction: column; /* affichage vertical */
+  min-height: 100vh; /* toute la hauteur du viewport */
+  padding: 1em;
+}
+
+
+.wrapper {
+  flex: 1 1 auto; /* occupe la hauteur restante */
+  display: flex; /* crée un contexte flex pour ses enfants */
+}
+
+
+.SensorsList
+{
+  width: 20em;
+}
+
+.Sensor {
+  flex: 1; /* occupe la largeur restante */
+}
+
+
+.nav {
+  order: -1; /* nav s'affiche en premier */
+}
+
+
+
+
+@media (max-width: 640px) {
+  .LiveSensors {
+    min-height: auto;
+
+  }
+  .wrapper {
+      flex-direction: column; /* affichage vertical */
+    }
+    .nav,
+     {
+      width: auto; /* pour écraser la valeur 10em */
+    }
+    .nav,
+    .article {
+      flex-basis: auto; /* pour écraser la valeur 0, due au flex: 1 */
+    }
+    .nav {
+      order: 0; /* nav reprend sa place */
+    }
+}

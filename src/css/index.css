@@ -1,0 +1,12 @@
+@import url('variables.css');
+@import url('colors.css');
+
+* {
+  box-sizing: border-box; /* pour maîtriser width et flex-basis */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
